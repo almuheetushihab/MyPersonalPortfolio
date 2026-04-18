@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #facc15, #d97706);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
