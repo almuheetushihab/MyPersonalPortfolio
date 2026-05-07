@@ -41,7 +41,8 @@ const Hero = ({ data }) => {
           <div className="relative w-72 h-72 md:w-96 md:h-96">
             <div className="w-full h-full rounded-full border-4 border-yellow-500/30 overflow-hidden relative z-10 bg-[#333]">
               {/* Note: Keep your profile image in frontend/public/images/Profile.png */}
-              <img src="/images/Profile.png" alt="Shihab" className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" />
+              {/* Temporarily commented out until image is added */}
+              {/* <img src="/images/Profile.png" alt="Shihab" className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity" /> */}
             </div>
             <div className="absolute inset-0 bg-yellow-400/20 blur-3xl -z-10 rounded-full"></div>
           </div>
